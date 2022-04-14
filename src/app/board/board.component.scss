@@ -1,0 +1,49 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 0px;
+}
+
+.app-square {
+  border: 1px gray solid;
+  height: 100px;
+}
+
+h1,
+h2,
+.new-btn {
+  font-family: "Permanent Marker", cursive;
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.new-btn {
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: 3px solid aliceblue;
+  border-radius: 20px;
+}
+
+.new {
+  text-align: center;
+}
+
+.player_X {
+  color: rgb(122, 224, 228);
+}
+
+.player_O {
+  color: rgb(231, 243, 62);
+}
