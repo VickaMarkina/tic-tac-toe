@@ -1,22 +1,28 @@
 button {
   width: 100%;
   height: 100%;
-  font-size: 5em;
-  display: flex;
+  display: grid;
+  align-content: center;
   justify-content: center;
-  align-items: center;
   border-radius: 0px;
   border-color: darkgrey;
 }
 
-.value_X {
-  background-color: rgb(122, 224, 228);
+.value_X,
+.value_O {
   color: white;
   font-family: "Permanent Marker", cursive;
+  font-size: 5em;
+
+  @media (max-width: 500px) {
+    font-size: 12vw;
+  }
+}
+
+.value_X {
+  background-color: rgb(122, 224, 228);
 }
 
 .value_O {
   background-color: rgb(231, 243, 62);
-  color: white;
-  font-family: "Permanent Marker", cursive;
 }
